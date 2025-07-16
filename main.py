@@ -1,31 +1,33 @@
-import requests
 import json
 import os
 from datetime import datetime, timedelta
-from bs4 import BeautifulSoup
 from zoneinfo import ZoneInfo
+from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
-# 配置
-RANDOM_URL = "https://www.moely.link/random/jump/?wallpaper=true"
+JUMP_URL = "https://www.moely.link/random/jump/?wallpaper=true"
 JSON_PATH = "wallpaper.json"
 
-def log(msg):
+def log(msg: str):
     now = datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{now}] {msg}")
 
 def fetch_wallpaper_data():
-    try:
-        resp = requests.get(RANDOM_URL, timeout=10)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        script = soup.find("script", {"id": "wallpaper", "type": "application/json"})
-        if script and script.string:
-            return json.loads(script.string)
-        else:
-            log("❌ 页面中未找到壁纸数据")
-            return None
-    except Exception as e:
-        log(f"❌ 请求或解析失败: {e}")
+    """使用 Playwright 打开页面并获取 <script id="wallpaper"> 中的 JSON 数据"""
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        log(f"▶️ 打开 {JUMP_URL}")
+        page.goto(JUMP_URL, timeout=30000)
+        page.wait_for_load_state("load")
+        html = page.content()
+        browser.close()
+
+    soup = BeautifulSoup(html, "html.parser")
+    script = soup.find("script", {"id": "wallpaper", "type": "application/json"})
+    if script and script.string:
+        return json.loads(script.string)
+    else:
         return None
 
 def load_existing():
@@ -37,7 +39,7 @@ def load_existing():
 def save_all(data_list):
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(data_list, f, ensure_ascii=False, indent=2)
-    log(f"✅ 壁纸信息保存成功，共 {len(data_list)} 条记录")
+    log(f"✅ 保存 {JSON_PATH}，共 {len(data_list)} 条记录")
 
 def main():
     tz = ZoneInfo("Asia/Shanghai")
@@ -48,26 +50,26 @@ def main():
     log("🚀 开始获取随机壁纸信息")
     info = fetch_wallpaper_data()
     if not info:
-        log("⚠️ 获取失败，程序终止")
+        log("❌ 未能获取到 wallpaper 数据，程序终止")
         return
 
     info["date"] = date_str
-    log(f"✅ 成功获取 wallpaper ID: {info.get('id')}，目标日期: {date_str}")
+    log(f"✅ 获取到 wallpaper ID={info.get('id')}，目标日期={date_str}")
 
     items = load_existing()
 
-    # 判断是否已存在相同记录
-    if not any(item.get("date") == info["date"] for item in items):
+    # 基于 date 判断是否已存在
+    if not any(item.get("date") == date_str for item in items):
         items.append(info)
-        log("🎨 新壁纸添加成功")
+        log("🎨 壁纸添加成功")
     else:
         log("ℹ️ 壁纸已存在，不重复添加")
 
-    # 保留 [today - 7, today + 7] 范围的记录
+    # 过滤保留 [today-7 .. today+7]
     min_date = today - timedelta(days=7)
     filtered = [
-        item for item in items
-        if min_date <= datetime.strptime(item["date"], "%Y%m%d").date() <= target_date
+        it for it in items
+        if min_date <= datetime.strptime(it["date"], "%Y%m%d").date() <= target_date
     ]
     filtered.sort(key=lambda x: x["date"])
     save_all(filtered)
