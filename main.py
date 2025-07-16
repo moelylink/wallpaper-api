@@ -23,7 +23,7 @@ def fetch_wallpaper_data():
         page.wait_for_event("framenavigated", timeout=10000)
         print("✅ 页面已跳转到：", page.url)
         # 等待目标元素加载
-        page.wait_for_load_state("load")
+        time.sleep(3)
         html = page.content()
         browser.close()
 
