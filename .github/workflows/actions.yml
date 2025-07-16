@@ -43,6 +43,6 @@ jobs:
             echo "未发现变更"
           else
             git commit -m "更新壁纸信息"
-            git push orign HEAD
+            git push origin HEAD
             echo "wallpaper 更新已提交"
           fi
