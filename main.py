@@ -18,7 +18,7 @@ def fetch_wallpaper_data():
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         log(f"▶️ 打开 {JUMP_URL}")
-        page.goto(JUMP_URL, timeout=60000, wait_until="domcontentloaded")
+        page.goto(JUMP_URL, timeout=30000, wait_until="domcontentloaded")
         # 等待页面发生跳转
         page.wait_for_event("framenavigated", timeout=10000)
         print("✅ 页面已跳转到：", page.url)
