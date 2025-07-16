@@ -18,12 +18,12 @@ def fetch_wallpaper_data():
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         log(f"▶️ 打开 {JUMP_URL}")
-        page.goto(JUMP_URL, timeout=50000, wait_until="domcontentloaded")
+        page.goto(JUMP_URL, timeout=60000, wait_until="domcontentloaded")
         page.wait_for_load_state("load")
         html = page.content()
         browser.close()
 
-    soup = BeautifulSoup(html, "lxml")
+    soup = BeautifulSoup(html, "html5lib")
     script = soup.find("script", {"id": "wallpaper"})
     if script and script.string:
         return json.loads(script.string)
