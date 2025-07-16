@@ -19,12 +19,12 @@ def fetch_wallpaper_data():
         page = browser.new_page()
         log(f"▶️ 打开 {JUMP_URL}")
         page.goto(JUMP_URL, timeout=30000)
-        page.wait_for_load_state("load")
+        page.wait_for_selector('script#wallpaper', timeout=10000)
         html = page.content()
         browser.close()
 
     soup = BeautifulSoup(html, "html.parser")
-    script = soup.find("script", {"id": "wallpaper", "type": "application/json"})
+    script = soup.find("script", {"id": "wallpaper"})
     if script and script.string:
         return json.loads(script.string)
     else:
