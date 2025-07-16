@@ -1,0 +1,42 @@
+name: Daily Wallpaper Update
+
+on:
+  schedule:
+    - cron:  '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-wallpaper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run update script
+        run: |
+          python main.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add wallpaper.json
+          # 如果有改动才提交
+          git diff --quiet && echo "No changes to commit" || git commit -m "chore: update wallpaper.json (${{ github.event.schedule }})"
+          git push
+        env:
+          # GITHUB_TOKEN 已默认注入，无需额外配置
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
