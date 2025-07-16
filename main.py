@@ -19,7 +19,11 @@ def fetch_wallpaper_data():
         page = browser.new_page()
         log(f"▶️ 打开 {JUMP_URL}")
         page.goto(JUMP_URL, timeout=60000, wait_until="domcontentloaded")
-        page.wait_for_load_state("load")
+        # 等待页面发生跳转
+        page.wait_for_event("framenavigated", timeout=10000)
+        print("✅ 页面已跳转到：", page.url)
+        # 等待目标元素加载
+        page.wait_for_selector("script#wallpaper", timeout=10000)
         html = page.content()
         browser.close()
 
