@@ -1,12 +1,5 @@
 [
   {
-    "id": "127734414",
-    "category": "Pixiv",
-    "user": "@Criin",
-    "original": "https://i.moely.link/img-original/img/2025/03/01/01/47/05/127734414_p0.jpg",
-    "date": "20250811"
-  },
-  {
     "id": "122851682",
     "category": "Pixiv",
     "user": "@Kokonex",
@@ -103,5 +96,12 @@
     "user": "@晴のちsakana",
     "original": "https://i.moely.link/img-original/img/2025/08/05/00/00/49/133498284_p0.jpg",
     "date": "20250825"
+  },
+  {
+    "id": "114055799",
+    "category": "Pixiv",
+    "user": "@深白@イラスト集発売中",
+    "original": "https://i.moely.link/img-original/img/2023/12/08/20/50/25/114055799_p0.jpg",
+    "date": "20250826"
   }
 ]
