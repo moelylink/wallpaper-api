@@ -1,12 +1,5 @@
 [
   {
-    "id": "136590586",
-    "category": "Pixiv",
-    "user": "@Hoplitx",
-    "original": "https://i.moely.link/img-original/img/2025/10/23/02/01/15/136590586_p0.png",
-    "date": "20251214"
-  },
-  {
     "id": "118991843",
     "category": "Pixiv",
     "user": "@みすみ",
@@ -103,5 +96,12 @@
     "user": "@Kakuma_Aru",
     "original": "https://t.moely.link/media/GoFe0enbgAA47ca.jpg?format=jpg&name=large",
     "date": "20251228"
+  },
+  {
+    "id": "135927557",
+    "category": "Pixiv",
+    "user": "@れーかるる",
+    "original": "https://i.moely.link/img-original/img/2025/10/06/00/11/17/135927557_p0.png",
+    "date": "20251229"
   }
 ]
