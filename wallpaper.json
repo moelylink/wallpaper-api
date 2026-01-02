@@ -1,12 +1,5 @@
 [
   {
-    "id": "118559093",
-    "category": "Pixiv",
-    "user": "@雲小猫C107火東7A10ab",
-    "original": "https://i.moely.link/img-original/img/2024/05/09/00/00/20/118559093_p0.jpg",
-    "date": "20251225"
-  },
-  {
     "id": "123905450",
     "category": "Pixiv",
     "user": "@ひげ猫",
@@ -103,5 +96,12 @@
     "user": "@heichanee",
     "original": "https://i.moely.link/img-original/img/2025/09/25/18/01/01/135520946_p0.png",
     "date": "20260108"
+  },
+  {
+    "id": "136320430",
+    "category": "Pixiv",
+    "user": "@梅原生（せい）",
+    "original": "https://i.moely.link/img-original/img/2025/10/16/00/00/16/136320430_p0.png",
+    "date": "20260109"
   }
 ]
