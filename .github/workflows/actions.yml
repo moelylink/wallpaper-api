@@ -46,3 +46,4 @@ jobs:
             git push origin HEAD
             echo "wallpaper 更新已提交"
           fi
+          
