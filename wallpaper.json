@@ -1,12 +1,5 @@
 [
   {
-    "id": "2004145105943306615",
-    "category": "Twitter",
-    "user": "@GlennHarte1",
-    "original": "https://t.moely.link/media/G88IFa8awAAavdR.jpg?format=jpg&name=large",
-    "date": "20260404"
-  },
-  {
     "id": "2006923411730346044",
     "category": "Twitter",
     "user": "@tenshisama_GA",
@@ -103,5 +96,12 @@
     "user": "@GenshinUniverse",
     "original": "https://t.moely.link/media/G86pZFkWAAAD_2-.jpg?format=jpg&name=large",
     "date": "20260418"
+  },
+  {
+    "id": "135802896",
+    "category": "Pixiv",
+    "user": "@スコッティ",
+    "original": "https://i.moely.link/img-original/img/2025/10/03/00/00/21/135802896_p0.jpg",
+    "date": "20260419"
   }
 ]
