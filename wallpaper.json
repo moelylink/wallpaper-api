@@ -1,12 +1,5 @@
 [
   {
-    "id": "127601750",
-    "category": "Pixiv",
-    "user": "@どうどう-榛小豆 (綠色豌豆)",
-    "original": "https://i.moely.link/img-original/img/2025/02/25/00/00/24/127601750_p0.jpg",
-    "date": "20260520"
-  },
-  {
     "id": "2035004797557043442",
     "category": "Twitter",
     "user": "@MitsMochi",
@@ -103,5 +96,12 @@
     "user": "@千千結",
     "original": "https://i.moely.link/img-original/img/2025/08/29/21/50/24/134471386_p0.jpg",
     "date": "20260603"
+  },
+  {
+    "id": "137277938",
+    "category": "Pixiv",
+    "user": "@あつまる＠冬コミ二日目へ20a",
+    "original": "https://i.moely.link/img-original/img/2025/11/09/18/16/26/137277938_p0.jpg",
+    "date": "20260604"
   }
 ]
