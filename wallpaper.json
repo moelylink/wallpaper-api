@@ -1,12 +1,5 @@
 [
   {
-    "id": "139240099",
-    "category": "Pixiv",
-    "user": "@しぐれうい",
-    "original": "https://i.moely.link/img-original/img/2025/12/30/00/13/48/139240099_p0.jpg",
-    "date": "20260527"
-  },
-  {
     "id": "144035493",
     "category": "Pixiv",
     "user": "@雨壱絵穹",
@@ -103,5 +96,12 @@
     "user": "@dadasha__s2",
     "original": "https://t.moely.link/media/G5tTHXWbcAAmaLY.jpg?format=jpg&name=large",
     "date": "20260610"
+  },
+  {
+    "id": "2020650691652714964",
+    "category": "Twitter",
+    "user": "@Kamuri_Amuru",
+    "original": "https://t.moely.link/media/HArLF72bMAELLri.jpg?format=jpg&name=large",
+    "date": "20260611"
   }
 ]
