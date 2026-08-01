@@ -1,12 +1,5 @@
 [
   {
-    "id": "1936066276541317508",
-    "category": "Twitter",
-    "user": "@NakuruAitsuki",
-    "original": "https://t.moely.link/media/Gt5J_8FbwAY9pUM.jpg?format=jpg&name=large",
-    "date": "20260724"
-  },
-  {
     "id": "129035187",
     "category": "Pixiv",
     "user": "@ゆぅ",
@@ -103,5 +96,12 @@
     "user": "@蝶夜",
     "original": "https://i.moely.link/img-original/img/2025/08/07/00/04/12/133571929_p0.png",
     "date": "20260807"
+  },
+  {
+    "id": "2003144375602417700",
+    "category": "Twitter",
+    "user": "@hamparty__",
+    "original": "https://t.moely.link/media/G8yZA6-bEAAvnlg.jpg?format=jpg&name=large",
+    "date": "20260808"
   }
 ]
