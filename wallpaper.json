@@ -1,12 +1,5 @@
 [
   {
-    "id": "1930024696172433411",
-    "category": "Twitter",
-    "user": "@nekone_uyu",
-    "original": "https://t.moely.link/media/Gsib0_uasAEFrMg.jpg?format=jpg&name=large",
-    "date": "20260820"
-  },
-  {
     "id": "133646178",
     "category": "Pixiv",
     "user": "@Anmi@画集発売中",
@@ -103,5 +96,12 @@
     "user": "@爱东东不爱画生肉",
     "original": "https://i.moely.link/img-original/img/2026/07/01/21/03/39/146694435_p0.jpg",
     "date": "20260903"
+  },
+  {
+    "id": "120269913",
+    "category": "Pixiv",
+    "user": "@藤ちょこ（藤原）",
+    "original": "https://i.moely.link/img-original/img/2024/07/06/00/00/33/120269913_p0.png",
+    "date": "20260904"
   }
 ]
