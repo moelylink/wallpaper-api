@@ -1,12 +1,5 @@
 [
   {
-    "id": "146694435",
-    "category": "Pixiv",
-    "user": "@爱东东不爱画生肉",
-    "original": "https://i.moely.link/img-original/img/2026/07/01/21/03/39/146694435_p0.jpg",
-    "date": "20260903"
-  },
-  {
     "id": "120269913",
     "category": "Pixiv",
     "user": "@藤ちょこ（藤原）",
@@ -103,5 +96,12 @@
     "user": "@孤葬南風@C107火東メ06a",
     "original": "https://i.moely.link/img-original/img/2025/04/02/13/47/06/128872727_p0.jpg",
     "date": "20260917"
+  },
+  {
+    "id": "2071941918414835835",
+    "category": "Twitter",
+    "user": "@Do_yuiki",
+    "original": "https://t.moely.link/media/HMEAoEAWYAAZF3H.jpg?format=jpg&name=large",
+    "date": "20260918"
   }
 ]
