@@ -1,12 +1,5 @@
 [
   {
-    "id": "2067199651380617364",
-    "category": "Twitter",
-    "user": "@shiidaP_",
-    "original": "https://t.moely.link/media/HLAqbT6bAAAIDa5.jpg?format=jpg&name=large",
-    "date": "20261001"
-  },
-  {
     "id": "144834438",
     "category": "Pixiv",
     "user": "@ジリ",
@@ -104,5 +97,13 @@
     "original": "https://t.moely.link/media/GrOhWHYWsAApNfD.jpg?format=jpg&name=large",
     "user": "わんわんメロンパン🐳",
     "date": "20261015"
+  },
+  {
+    "artist": "1519835415003336705",
+    "category": "Twitter",
+    "id": "2067176261471150187",
+    "original": "https://t.moely.link/media/HLAV2tYbkAAIg6D.jpg?format=jpg&name=large",
+    "user": "GLUTTON",
+    "date": "20261016"
   }
 ]
