@@ -1,12 +1,5 @@
 [
   {
-    "id": "1983436669903835214",
-    "category": "Twitter",
-    "user": "@utsusemiSANROKU",
-    "original": "https://t.moely.link/media/G4aVIr9b0AA7FGH.jpg?format=jpg&name=large",
-    "date": "20261003"
-  },
-  {
     "id": "135029138",
     "category": "Pixiv",
     "user": "@银无折纸",
@@ -106,5 +99,13 @@
     "original": "https://i.moely.link/img-original/img/2026/07/11/20/39/32/147083075_p0.png",
     "user": "kihane",
     "date": "20261017"
+  },
+  {
+    "artist": "6049901",
+    "category": "Pixiv",
+    "id": "148038600",
+    "original": "https://i.moely.link/img-original/img/2026/08/05/10/21/33/148038600_p0.jpg",
+    "user": "鬼针草",
+    "date": "20261018"
   }
 ]
