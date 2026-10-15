@@ -1,12 +1,5 @@
 [
   {
-    "id": "135802896",
-    "category": "Pixiv",
-    "user": "@スコッティ",
-    "original": "https://i.moely.link/img-original/img/2025/10/03/00/00/21/135802896_p0.jpg",
-    "date": "20261007"
-  },
-  {
     "id": "1996867146203214173",
     "category": "Twitter",
     "user": "@hoshi_u3",
@@ -110,5 +103,13 @@
     "original": "https://i.moely.link/img-original/img/2024/05/02/00/00/12/118340936_p0.jpg",
     "user": "しぐれうい",
     "date": "20261021"
+  },
+  {
+    "artist": "33611048",
+    "category": "Twitter",
+    "id": "2090025448772395245",
+    "original": "https://t.moely.link/media/HQFDD_qaAAAYkdG.jpg?format=jpg&name=large",
+    "user": "孤葬南風",
+    "date": "20261022"
   }
 ]
