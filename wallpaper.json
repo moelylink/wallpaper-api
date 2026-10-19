@@ -1,12 +1,5 @@
 [
   {
-    "id": "1911739047011369169",
-    "category": "Twitter",
-    "user": "@gabiran_",
-    "original": "https://t.moely.link/media/GofcbsoWAAAdoy9.jpg?format=jpg&name=large",
-    "date": "20261011"
-  },
-  {
     "id": "136757387",
     "category": "Pixiv",
     "user": "@はねこと：お隣の天使様アニメ化",
@@ -114,5 +107,13 @@
     "original": "https://i.moely.link/img-original/img/2024/10/30/12/29/09/123811407_p0.jpg",
     "user": "狗脸脸dogface",
     "date": "20261025"
+  },
+  {
+    "artist": "2459678",
+    "category": "Pixiv",
+    "id": "135297468",
+    "original": "https://i.moely.link/img-original/img/2025/09/20/00/02/35/135297468_p0.jpg",
+    "user": "雨壱絵穹",
+    "date": "20261026"
   }
 ]
