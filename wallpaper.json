@@ -1,12 +1,5 @@
 [
   {
-    "id": "136757387",
-    "category": "Pixiv",
-    "user": "@はねこと：お隣の天使様アニメ化",
-    "original": "https://i.moely.link/img-original/img/2025/10/27/13/03/24/136757387_p0.jpg",
-    "date": "20261012"
-  },
-  {
     "id": "2073340424186650651",
     "category": "Twitter",
     "user": "@gurasion0310",
@@ -115,5 +108,13 @@
     "original": "https://i.moely.link/img-original/img/2025/09/20/00/02/35/135297468_p0.jpg",
     "user": "雨壱絵穹",
     "date": "20261026"
+  },
+  {
+    "artist": "5979722",
+    "category": "Twitter",
+    "id": "1917195700766691636",
+    "original": "https://t.moely.link/media/Gps_A8kaUAA9_mB.jpg?format=jpg&name=large",
+    "user": "redjuice",
+    "date": "20261027"
   }
 ]
