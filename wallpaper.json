@@ -1,12 +1,5 @@
 [
   {
-    "id": "2073340424186650651",
-    "category": "Twitter",
-    "user": "@gurasion0310",
-    "original": "https://t.moely.link/media/HMX7_clakAAwCno.jpg?format=jpg&name=large",
-    "date": "20261013"
-  },
-  {
     "id": "130732257",
     "category": "Pixiv",
     "user": "@スコッティ",
@@ -116,5 +109,13 @@
     "original": "https://t.moely.link/media/Gps_A8kaUAA9_mB.jpg?format=jpg&name=large",
     "user": "redjuice",
     "date": "20261027"
+  },
+  {
+    "artist": "1023317",
+    "category": "Pixiv",
+    "id": "137700478",
+    "original": "https://i.moely.link/img-original/img/2025/11/21/00/00/17/137700478_p0.jpg",
+    "user": "gomzi",
+    "date": "20261028"
   }
 ]
