@@ -1,13 +1,5 @@
 [
   {
-    "artist": "1519835415003336705",
-    "category": "Twitter",
-    "id": "2067176261471150187",
-    "original": "https://t.moely.link/media/HLAV2tYbkAAIg6D.jpg?format=jpg&name=large",
-    "user": "GLUTTON",
-    "date": "20261016"
-  },
-  {
     "artist": "41554416",
     "category": "Pixiv",
     "id": "147083075",
@@ -118,5 +110,13 @@
     "original": "https://i.moely.link/img-original/img/2025/11/12/23/27/56/137403426_p0.jpg",
     "user": "JURI",
     "date": "20261030"
+  },
+  {
+    "artist": "490219",
+    "category": "Pixiv",
+    "id": "148268121",
+    "original": "https://i.moely.link/img-original/img/2026/08/11/00/00/14/148268121_p0.png",
+    "user": "Hiten",
+    "date": "20261031"
   }
 ]
