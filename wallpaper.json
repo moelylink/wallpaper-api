@@ -1,13 +1,5 @@
 [
   {
-    "artist": "1023317",
-    "category": "Pixiv",
-    "id": "137700478",
-    "original": "https://i.moely.link/img-original/img/2025/11/21/00/00/17/137700478_p0.jpg",
-    "user": "gomzi",
-    "date": "20261028"
-  },
-  {
     "artist": "82198539",
     "category": "Twitter",
     "id": "2032690872568131884",
@@ -118,5 +110,13 @@
     "original": "https://t.moely.link/media/HBCV_TxboAAL1ex.jpg?format=jpg&name=large",
     "user": "楠ハルイ",
     "date": "20261111"
+  },
+  {
+    "artist": "1024309726710968320",
+    "category": "Twitter",
+    "id": "1926431771312476542",
+    "original": "https://t.moely.link/media/GruiNPnWcAApbAV.jpg?format=jpg&name=large",
+    "user": "海乃エメ＠ホロクル【G-32】",
+    "date": "20261112"
   }
 ]
