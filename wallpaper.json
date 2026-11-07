@@ -1,13 +1,5 @@
 [
   {
-    "artist": "61926229",
-    "category": "Pixiv",
-    "id": "137403426",
-    "original": "https://i.moely.link/img-original/img/2025/11/12/23/27/56/137403426_p0.jpg",
-    "user": "JURI",
-    "date": "20261030"
-  },
-  {
     "artist": "490219",
     "category": "Pixiv",
     "id": "148268121",
@@ -118,5 +110,13 @@
     "original": "https://i.moely.link/img-original/img/2025/04/18/00/00/11/129414391_p0.jpg",
     "user": "ZUU",
     "date": "20261113"
+  },
+  {
+    "artist": "1020462681432547328",
+    "category": "Twitter",
+    "id": "2005687798611992945",
+    "original": "https://t.moely.link/media/G9WiP61aIAAiF7i.jpg?format=jpg&name=large",
+    "user": "ゆうひどら",
+    "date": "20261114"
   }
 ]
