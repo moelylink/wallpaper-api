@@ -1,13 +1,5 @@
 [
   {
-    "artist": "66477791",
-    "category": "Twitter",
-    "id": "2019311448292487272",
-    "original": "https://t.moely.link/media/HAYJBvbbsAAopH9.jpg?format=jpg&name=large",
-    "user": "柠檬静静静静",
-    "date": "20261102"
-  },
-  {
     "artist": "45015081",
     "category": "Pixiv",
     "id": "144375487",
@@ -118,5 +110,13 @@
     "original": "https://t.moely.link/media/G88l-iGWAAMnUXr.jpg?format=jpg&name=large",
     "user": "Star Rail Universe",
     "date": "20261116"
+  },
+  {
+    "artist": "13099137",
+    "category": "Pixiv",
+    "id": "111302706",
+    "original": "https://i.moely.link/img-original/img/2023/08/31/00/00/43/111302706_p0.jpg",
+    "user": "Osage",
+    "date": "20261117"
   }
 ]
