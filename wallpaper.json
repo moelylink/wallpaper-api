@@ -1,13 +1,5 @@
 [
   {
-    "artist": "1878396975302983680",
-    "category": "Twitter",
-    "id": "2037484786911182995",
-    "original": "https://t.moely.link/media/HEP15nsaQAAeuWn.jpg?format=jpg&name=large",
-    "user": "そらいろなつ",
-    "date": "20261105"
-  },
-  {
     "artist": "6662895",
     "category": "Pixiv",
     "id": "131568177",
@@ -118,5 +110,13 @@
     "original": "https://t.moely.link/media/HR4CprfaAAABQN7.jpg?format=jpg&name=large",
     "user": "しろみちゃん🤍🩹＠新人Vtuber",
     "date": "20261119"
+  },
+  {
+    "artist": "3906246",
+    "category": "Pixiv",
+    "id": "146821630",
+    "original": "https://i.moely.link/img-original/img/2026/07/05/00/00/22/146821630_p0.png",
+    "user": "梅原生（せい）",
+    "date": "20261120"
   }
 ]
