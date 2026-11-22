@@ -1,13 +1,5 @@
 [
   {
-    "artist": "1020462681432547328",
-    "category": "Twitter",
-    "id": "2005687798611992945",
-    "original": "https://t.moely.link/media/G9WiP61aIAAiF7i.jpg?format=jpg&name=large",
-    "user": "ゆうひどら",
-    "date": "20261114"
-  },
-  {
     "artist": "3420822",
     "category": "Pixiv",
     "id": "138107747",
@@ -118,5 +110,13 @@
     "original": "https://t.moely.link/media/G9QMXvZbcAANY68.jpg?format=jpg&name=large",
     "user": "Franky",
     "date": "20261128"
+  },
+  {
+    "artist": "1262745095767392256",
+    "category": "Twitter",
+    "id": "1945095798221320550",
+    "original": "https://t.moely.link/media/Gv5d8t7a4AEElmY.jpg?format=jpg&name=large",
+    "user": "真理-mari",
+    "date": "20261129"
   }
 ]
